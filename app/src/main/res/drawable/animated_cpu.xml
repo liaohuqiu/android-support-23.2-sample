@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/vector_drawable_cpu_ani">
+
+    <target
+        android:name="top"
+        android:animation="@animator/pulse_top" />
+
+    <target
+        android:name="right"
+        android:animation="@animator/pulse_right" />
+
+    <target
+        android:name="left"
+        android:animation="@animator/pulse_left" />
+
+    <target
+        android:name="bottom"
+        android:animation="@animator/pulse_bottom" />
+</animated-vector>

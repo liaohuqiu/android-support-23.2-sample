@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Demo for Support23.2</string>
+
+    <string name="text_for_day_night_mode_night_no">NightMode: AppCompatDelegate.MODE_NIGHT_NO</string>
+    <string name="text_for_day_night_mode_night_yes">NightMode: AppCompatDelegate.MODE_NIGHT_YES</string>
+    <string name="text_for_day_night_mode_night_auto">NightMode: AppCompatDelegate.MODE_NIGHT_AUTO</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_about">About</string>
+    <string name="action_day_night_yes">Night Mode</string>
+    <string name="action_day_night_no">Day Mode</string>
+    <string name="action_bottom_sheet_dialog">Bottom Sheet Dialog</string>
+</resources>

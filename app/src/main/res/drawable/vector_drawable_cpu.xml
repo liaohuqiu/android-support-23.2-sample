@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportHeight="600"
+    android:viewportWidth="600">
+
+    <path
+        android:name="cpu"
+        android:fillColor="?android:textColorSecondary"
+        android:pathData="
+                M341.087,157.478 c7.417,0,13.435,6.018,13.435,13.435 v170.174c0,7.417-6.018,13.435-13.435,13.435 H170.913 c-7.417,0-13.435-6.018-13.435-13.435V170.913c0-7.417,6.018-13.435,13.435-13.435H341.087z
+                M390.348,157.478 c0-19.785-16.041-35.826-35.826-35.826H157.479c-19.785,0-35.826,16.041-35.826,35.826v197.043 c0,19.785,16.041,35.826,35.826,35.826h197.043c19.785,0,35.826-16.041,35.826-35.826V157.478z" />
+
+    <path
+        android:name="wires_bottom"
+        android:fillColor="?android:textColorSecondary"
+        android:pathData="
+                M193.304,408.261V462h-17.913 v-53.739H193.304z
+                M264.957,408.261V462h-17.914v-53.739H264.957z
+                M300.783,408.261V462h-17.914v-53.739H300.783z
+                M229.13,408.261 V462h-17.913v-53.739H229.13z
+                M336.609,408.261V462h-17.914v-53.739H336.609z" />
+
+    <path
+        android:name="wires_top"
+        android:fillColor="?android:textColorSecondary"
+        android:pathData="
+                M193.304,50v53.739h-17.913V50H193.304z
+                M264.957,50 v53.739h-17.914V50H264.957z
+                M300.783,50v53.739h-17.914V50H300.783z
+                M229.13,50v53.739h-17.913V50H229.13z
+                M336.609,50v53.739 h-17.914V50H336.609z" />
+
+    <path
+        android:name="wires_right"
+        android:fillColor="?android:textColorSecondary"
+        android:pathData="
+                M408.261,318.695H462v17.914h-53.739V318.695z
+                M408.261,247.043H462v17.914h-53.739V247.043z
+                M408.261,211.217 H462v17.913h-53.739V211.217z
+                M408.261,282.869H462v17.914h-53.739V282.869z
+                M408.261,175.391H462v17.913h-53.739V175.391z" />
+
+    <path
+        android:name="wires_left"
+        android:fillColor="?android:textColorSecondary"
+        android:pathData="
+                M50,318.695h53.739v17.914H50V318.695z
+                M50,247.043h53.739v17.914H50V247.043z
+                M50,211.217h53.739v17.913H50V211.217z
+                M50,282.869 h53.739v17.914H50V282.869z
+                M50,175.391h53.739v17.913H50V175.391z" />
+</vector>
