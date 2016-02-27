@@ -29,3 +29,10 @@ MIT
 *  https://medium.com/@chrisbanes/appcompat-v23-2-daynight-d10f90c83e94#.x3z9rzkm2
 
 *  http://android-developers.blogspot.com/2016/02/android-support-library-232.html
+
+
+### Thanks
+
+*  http://code.tutsplus.com/articles/using-androids-vectordrawable-class--cms-23948
+
+*  https://medium.com/@chrisbanes/appcompat-v23-2-daynight-d10f90c83e94
