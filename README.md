@@ -1,3 +1,9 @@
+### SnapShot:
+
+<div>
+    <img src='https://raw.githubusercontent.com/liaohuqiu/android-support-23.2-sample/master/art/1.gif' width="300px" style='border: #f1f1f1 solid 1px'/>
+</div>
+
 ### Contains features
 
 * Vector Drawable
@@ -12,8 +18,14 @@
 
 * RecyclerView: WRAP_CONTENT
 
-### SnapShot:
 
-<div>
-    <img src='https://raw.githubusercontent.com/liaohuqiu/android-support-23.2-sample/master/art/1.gif' width="300px" style='border: #f1f1f1 solid 1px'/>
-</div>
+### License
+
+MIT
+
+
+### Related links
+
+*  https://medium.com/@chrisbanes/appcompat-v23-2-daynight-d10f90c83e94#.x3z9rzkm2
+
+*  http://android-developers.blogspot.com/2016/02/android-support-library-232.html
