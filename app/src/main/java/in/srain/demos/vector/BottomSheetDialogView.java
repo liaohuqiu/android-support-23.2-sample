@@ -16,7 +16,6 @@ public class BottomSheetDialogView {
     private static String[] sStringList;
 
     static {
-        // build some string with different length
         sStringList = new String[50];
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0; i < sStringList.length; i++) {
@@ -29,11 +28,12 @@ public class BottomSheetDialogView {
      * remember to call setLocalNightMode for dialog
      *
      * @param context
-     * @param dayNightMode
+     * @param dayNightMode current day night mode
      */
     public BottomSheetDialogView(Context context, int dayNightMode) {
         BottomSheetDialog dialog = new BottomSheetDialog(context);
         dialog.getDelegate().setLocalNightMode(dayNightMode);
+
         View view = LayoutInflater.from(context).inflate(R.layout.bottom_sheet_dialog_recycler_view, null);
 
         RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.bottom_sheet_recycler_view);
