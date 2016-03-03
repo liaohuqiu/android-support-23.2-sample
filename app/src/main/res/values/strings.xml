@@ -12,4 +12,5 @@
     <string name="action_day_night_yes">Night Mode</string>
     <string name="action_day_night_no">Day Mode</string>
     <string name="action_bottom_sheet_dialog">Bottom Sheet Dialog</string>
+    <string name="text_phone_has_no_browser">Your phone has no browser.</string>
 </resources>

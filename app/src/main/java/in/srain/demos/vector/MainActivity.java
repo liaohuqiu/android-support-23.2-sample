@@ -1,5 +1,6 @@
 package in.srain.demos.vector;
 
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.drawable.Animatable;
@@ -13,6 +14,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -66,9 +68,14 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.action_about) {
-            String url = "https://github.com/liaohuqiu/android-support-23.2-sample";
-            Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-            startActivity(myIntent);
+            try {
+                String url = "https://github.com/liaohuqiu/android-support-23.2-sample";
+                Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                startActivity(myIntent);
+            }catch (ActivityNotFoundException e){
+                e.printStackTrace();
+                Toast.makeText(MainActivity.this, getApplicationContext().getString(R.string.text_phone_has_no_browser), Toast.LENGTH_SHORT).show();
+            }
             return true;
         } else if (id == R.id.action_day_night_yes) {
             getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_YES);
